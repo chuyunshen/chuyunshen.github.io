@@ -11,6 +11,7 @@ $white: #f9f9f9;
 $grey-dark:   #222;
 $grey-medium: #999;
 $grey-light:  #d9d9d9;
+$lightest-grey:  #fafafa;
 
 $hilite: #fffbd7;
 
@@ -23,8 +24,8 @@ $accent: #24536B;
 $sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 $serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif;
 
-   
-   
+
+
 /* Type Scale
    ========================================================================== */
 /** * 12 & 16 as roots then powers of two. */
@@ -40,13 +41,13 @@ $fs6:12px;
 $lh: 33px;
 $lhsmall: 24px;
 
-// Sizing 
-$footerHeight: 320px;
+// Sizing
+$footerHeight: 50px;
 
 // Griddit
 /* Break Points
    ========================================================================== */
-   
+
 /* Mobile */
 $breakpoint-1-max-width:480px;
 

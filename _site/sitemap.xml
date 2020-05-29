@@ -6,23 +6,11 @@
 
     
     <url>
-        <loc>http://localhost:4000/articles/test-post</loc>
+        <loc>http://localhost:4000/articles/poet</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/articles/the-little-prince</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/articles/post-with-figure</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/articles/post-with-feature</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/articles/longform-post</loc>
+        <loc>http://localhost:4000/genie</loc>
     </url>
     
 </urlset>
