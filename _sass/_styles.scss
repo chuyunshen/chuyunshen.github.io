@@ -417,6 +417,10 @@ header.site-header nav {
             }
         }
 
+        img {
+            height: 45vh;
+            max-height: 800px;
+        }
         .summary {
             font-size: 18px;
             line-height: 1.45em;
@@ -489,8 +493,6 @@ header.site-header nav {
     }
 
     img {
-        width: 100%;
-        height: auto;
         display: block;
         margin: $lh auto;
         @include br(4px);

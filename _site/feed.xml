@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Balzac</title>
+<title type="text">Chuyun Shen</title>
 <subtitle type="text">A beautiful theme.</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2020-05-29T00:14:37-04:00</updated>
+<updated>2020-05-30T17:12:11-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
   <uri>http://localhost:4000/</uri>
   <email>chuyun.shen@mail.utoronto.ca</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Big Fuss]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/big-fuss" />
+  <id>http://localhost:4000/articles/big-fuss</id>
+  <published>2020-05-30T00:00:00-04:00</published>
+  <updated>2020-05-30T00:00:00-04:00</updated>
+  <author>
+    <name>Chuyun Shen</name>
+    <uri>http://localhost:4000</uri>
+    <email>chuyun.shen@mail.utoronto.ca</email>
+  </author>
+  <content type="html">&lt;p&gt;With React Native and Spring Boot, I wrote a party trivia app that will display user submitted questions.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -25,7 +42,10 @@
     <uri>http://localhost:4000</uri>
     <email>chuyun.shen@mail.utoronto.ca</email>
   </author>
-  <content type="html">&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+  <content type="html">&lt;p&gt;Poet is a lightweight Chrome extension that displays a new poem every day upon new tab launches.&lt;/p&gt;
+
+&lt;p&gt;Motivation: I caught myself never reading enough (to be pefectly honest, zero these days). I feel a little stuck in this hustle-bustle. I hope this brings you some solace and, more importantly, literacy…&lt;/p&gt;
+
 &lt;p&gt;Download Poet from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/poet/hkjjflfleaejocakemkheofjcmkepbcm&quot;&gt; Chrome extension web store.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
@@ -46,7 +66,6 @@ Add poems to your favourites.
 View and manage your saved poems.
 &lt;br /&gt;
 &lt;img src=&quot;https://imgur.com/c3tUqx4.gif&quot; alt=&quot;Manage poems&quot; height=&quot;400px&quot; /&gt;
-&lt;br /&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -57,14 +76,14 @@ Refresh for a new poem.
 &lt;br /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Check out the source code on my &lt;a href=&quot;https://github.com/chuyunshen/poet&quot;&gt; GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out the source code on my &lt;a href=&quot;https://github.com/chuyunshen/poet&quot;&gt; GitHub.&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/poet&quot;&gt;Poet&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Balzac&lt;/a&gt; on May 20, 2020.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/poet&quot;&gt;Poet&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 20, 2020.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
-  <title type="html"><![CDATA[Introducing Genie 1.0]]></title>
+  <title type="html"><![CDATA[Introducing Genie]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/genie" />
   <id>http://localhost:4000/genie</id>
   <published>2020-01-01T00:00:00-05:00</published>
@@ -85,7 +104,24 @@ Refresh for a new poem.
 &lt;p&gt;See the full code &lt;a href=&quot;https://github.com/chuyunshen/genie&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/genie&quot;&gt;Introducing Genie 1.0&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Balzac&lt;/a&gt; on January 01, 2020.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/genie&quot;&gt;Introducing Genie&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on January 01, 2020.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Recruitment System]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/recruitment-system" />
+  <id>http://localhost:4000/articles/recruitment-system</id>
+  <published>2019-08-20T00:00:00-04:00</published>
+  <updated>2019-08-20T00:00:00-04:00</updated>
+  <author>
+    <name>Chuyun Shen</name>
+    <uri>http://localhost:4000</uri>
+    <email>chuyun.shen@mail.utoronto.ca</email>
+  </author>
+  <content type="html">&lt;p&gt;Recruitment system was done as part of the software design course at school. The requirements were given to us resembling how projects are handled in the industry. I got to practice design patterns, Java, and team work with this project that I worked on almost every day for two months.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/recruitment-system&quot;&gt;Recruitment System&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on August 20, 2019.&lt;/p&gt;</content>
 </entry>
 
 </feed>

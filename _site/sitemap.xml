@@ -6,11 +6,19 @@
 
     
     <url>
+        <loc>http://localhost:4000/articles/big-fuss</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/poet</loc>
     </url>
     
     <url>
         <loc>http://localhost:4000/genie</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/articles/recruitment-system</loc>
     </url>
     
 </urlset>
