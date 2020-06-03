@@ -310,7 +310,7 @@ header.site-header nav {
         top: 0;
         z-index: -1;
         img {
-            max-height: 800px;
+            // max-height: 800px;
         }
     }
 
@@ -418,8 +418,7 @@ header.site-header nav {
         }
 
         img {
-            height: 45vh;
-            max-height: 800px;
+            width: 75vh;
         }
         .summary {
             font-size: 18px;

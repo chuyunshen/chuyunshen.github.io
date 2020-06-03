@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2020-05-30T17:12:11-04:00</updated>
+<updated>2020-06-02T23:08:18-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -26,6 +26,10 @@
     <email>chuyun.shen@mail.utoronto.ca</email>
   </author>
   <content type="html">&lt;p&gt;With React Native and Spring Boot, I wrote a party trivia app that will display user submitted questions.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/big-fuss.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
 </entry>
@@ -120,6 +124,64 @@ Refresh for a new poem.
     <email>chuyun.shen@mail.utoronto.ca</email>
   </author>
   <content type="html">&lt;p&gt;Recruitment system was done as part of the software design course at school. The requirements were given to us resembling how projects are handled in the industry. I got to practice design patterns, Java, and team work with this project that I worked on almost every day for two months.&lt;/p&gt;
+
+&lt;p&gt;Source code can be found on &lt;a href=&quot;https://github.com/chuyunshen/recruitment-system&quot;&gt;my GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Below are a few UML digrams illustrasting the design for our system.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Compositional Relationships
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+User Inheritence
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-2.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Applicant Actions
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-3.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Manager Inheritence
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-4.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Base, Interviewer, Referee, and User Actions
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-5.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Coordinator Actions
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-6.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Background Actions
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-7.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Documents and Storage
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-8.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+Tools
+&lt;br /&gt;
+&lt;img src=&quot;/images/uml-9.png&quot; alt=&quot;&quot; width=&quot;680px&quot; /&gt;
+&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/recruitment-system&quot;&gt;Recruitment System&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on August 20, 2019.&lt;/p&gt;</content>
 </entry>
