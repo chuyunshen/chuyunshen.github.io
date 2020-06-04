@@ -36,7 +36,10 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
+<<<<<<< HEAD
 highlighter: rouge
+=======
+>>>>>>> 0c5e293b0a3ed3785c66f47ee8dd37117a1c329f
 markdown:    kramdown
 
 kramdown:
@@ -61,3 +64,5 @@ permalink:   /:categories/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
+theme: jekyll-theme-cayman
