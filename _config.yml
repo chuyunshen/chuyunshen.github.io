@@ -1,7 +1,7 @@
 title:            Chuyun Shen
 tagline:          A beautiful theme.
 description:      Describe your website.
-canonical: http://jekyll.gtat.me
+canonical: https://chuyunshen.github.io/chuyun
 
 # Owner/author information
 owner:
@@ -10,7 +10,6 @@ owner:
   bio:            "None"
   email:          chuyun.shen@mail.utoronto.ca
   github:         chuyunshen
-  instagram:      ctrunsthis
   disqus:         chuyunshen
   location:       "Toronto, Canada"
 
@@ -37,7 +36,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 
 kramdown:
