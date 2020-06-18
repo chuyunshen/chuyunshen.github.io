@@ -418,7 +418,8 @@ header.site-header nav {
         }
 
         img {
-            width: 75vh;
+            margin: 15px auto;
+            width: 500px;
         }
         .summary {
             font-size: 18px;
@@ -672,32 +673,37 @@ footer {
 
 @media only screen and (max-width: $breakpoint-2-max-width) {
 
-// Type Fixes
+    // Type Fixes
 
-h1 {
-    font-size: $fs2;
-}
-
-blockquote, blockquote p {
-    font-size: $fs3;
-}
-
-footer {
-    font-size: $fs5;
-
-    .social {
-        right: 10vw;
+    h1 {
+        font-size: $fs2;
     }
-}
 
+    blockquote, blockquote p {
+        font-size: $fs3;
+    }
 
+    footer {
+        font-size: $fs5;
+
+        .social {
+            right: 10vw;
+        }
+    }
+
+    .post-list img {
+        max-width: 400px;
+    }
+    .post img {
+        max-width: 500px;
+    }
 }
 
 /* Mobile
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
-    footer {
+  footer {
 
     .social {
         display: none;
@@ -718,8 +724,15 @@ footer {
             margin-top: $lh/2;
         }
     }
-
+  }
+    .post-list img {
+        max-width: 300px;
     }
+
+    .post img{
+        max-width: 380px;
+    }
+
 }
 
 @media only screen and (max-width : 680px) {
@@ -829,30 +842,23 @@ footer {
             background-color: $link;
         }
     }
-
 }
 
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
+    .post {
+        @include column(9);
+        max-width: 420px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
 
-.post {
-    @include column(9);
-    max-width: 420px;
-    display: block;
-    margin: 0 auto;
-    float: none;
+    footer {
+        font-size: $fs5;
+    }
+
+    small {
+        font-size: $fs6;
+    }
 }
-
-footer {
-    font-size: $fs5;
-}
-
-small {
-    font-size: $fs6;
-}
-
-}
-
-
-
-
