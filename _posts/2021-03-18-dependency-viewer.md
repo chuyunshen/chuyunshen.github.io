@@ -20,6 +20,8 @@ Dependency Viewer presents application dependency information in graphs.
 
 Dependency Viewer dynamically obtains app lists Prometheus. Then, each app's dependency information is fetched from the apps' Spring Boot health metrics endpoint.
 
+It greatly simplifies the challenges with debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.
+
 Note: Sensitive company information has been changed or blurred out and graph generation has been sped up.
 
 
