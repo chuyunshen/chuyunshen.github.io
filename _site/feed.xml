@@ -5,13 +5,161 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2020-06-18T19:11:27-04:00</updated>
+<updated>2021-03-18T16:24:55-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
   <uri>http://localhost:4000/</uri>
-  <email>chuyun.shen@mail.utoronto.ca</email>
+  <email>chuyun.shen@outlook.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Dependency Viewer]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/dependency-viewer" />
+  <id>http://localhost:4000/articles/dependency-viewer</id>
+  <published>2021-03-18T00:00:00-04:00</published>
+  <updated>2021-03-18T00:00:00-04:00</updated>
+  <author>
+    <name>Chuyun Shen</name>
+    <uri>http://localhost:4000</uri>
+    <email>chuyun.shen@outlook.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Dependency Viewer presents application dependency information in graphs.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-logo.png&quot; alt=&quot;Dependency Viewer Logo&quot; width=&quot;80&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tools&quot;&gt;Tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Dependency Viewer dynamically obtains app lists Prometheus. Then, each app’s dependency information is fetched from the apps’ Spring Boot health metrics endpoint.&lt;/p&gt;
+
+&lt;p&gt;Note: Sensitive company information has been changed or blurred out and graph generation has been sped up.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h3 id=&quot;main-tool-bar&quot;&gt;Main Tool Bar&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Select an app to generate a graph&lt;/strong&gt;: By selecting an app type (UI, API, or core), an environment (dev, stg, or prd), and an app name, you can generate a dependency graph.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-generate.gif&quot; alt=&quot;generate feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Favourite an app&lt;/strong&gt;: Click on the hollow green star to save an app to favourites. You can access your favourite apps within advanced options (more on this later).&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-favourite.gif&quot; alt=&quot;favourite feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;graph&quot;&gt;Graph&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Hover to show more&lt;/strong&gt;: Hover over nodes to see how this app is connected to other apps, and this app’s environment and version information.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-hover.gif&quot; alt=&quot;hover feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Click on nodes to show a pop-up app panel&lt;/strong&gt;: Looking for more information on this app? Click to expand the pop-up app panel. More on this below.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-node-popup-blurred.gif&quot; alt=&quot;node popup feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;extra-tools-panel&quot;&gt;Extra tools panel&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Select a layout&lt;/strong&gt;: Choose between different layouts to optimize node placement.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-layout.gif&quot; alt=&quot;layout feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Highlight a keyword&lt;/strong&gt;: Also in the extra tools panel, you can highlight a keyword to quickly filter through apps.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-highlight.gif&quot; alt=&quot;highlight feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Select a view&lt;/strong&gt;: You can toggle between colour-coding app statuses (green for up and red for down) and environments (light blue for development, medium-blue for staging, dark blue for production).&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-view.gif&quot; alt=&quot;view feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Show circular dependencies&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A. highlight different instances of the same apps (e.g., different versions of an app exist in the graph)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-circular-A.gif&quot; alt=&quot;circular A feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B. highlight same instances of the same apps (e.g., the edges within a circular loop of app1→ app2 → app3 → app1 and the repeated app app1 will be highlighted in purple).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-circular-B.gif&quot; alt=&quot;circular B feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Collapse duplicate apps&lt;/strong&gt;: Collapses apps that have the same name / url but different versions to show a more concise graph. This is to priorize the understanding of app relationships.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-collapse.gif&quot; alt=&quot;collapse feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Show more information&lt;/strong&gt;: Click on the ⓘ icon or alternatively press ‘?’ to see a guide to reading a graph.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-legend.gif&quot; alt=&quot;legend feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;app-panel&quot;&gt;App Panel&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;View info link&lt;/strong&gt;: Open the app’s info link in a new tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View sub-dependencies&lt;/strong&gt;: See a graph of sub-dependencies of the chosen app in a new tab.&lt;/p&gt;
+
+&lt;h3 id=&quot;advanced-options&quot;&gt;Advanced Options&lt;/h3&gt;
+
+&lt;p&gt;Under ⚙️ tab&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-advanced.gif&quot; alt=&quot;advanced options feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clear cache&lt;/strong&gt;: When something is wrong with the app lists that are displayed in the dropdown menus, you can click the Clear Cache button to refresh the cached app lists.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enter custom URL&lt;/strong&gt;: In the case when you can’t find an app, you can enter your own URL.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-advanced-custom.gif&quot; alt=&quot;advanced options custom url feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Manage favourite apps&lt;/strong&gt;: Use the dropdowns to add or remove favourite apps, and you can generate graphs from there. The graphs will be presented in a new tab.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img src=&quot;/images/dv/dv-manage-favourite.gif&quot; alt=&quot;advanced options manage favourite apps feature&quot; width=&quot;680&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Frontend: JavaScript with &lt;a href=&quot;https://stenciljs.com/&quot;&gt;StencilJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Graph library: &lt;a href=&quot;https://js.cytoscape.org/&quot;&gt;Cytoscape&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Backend: NodeJS&lt;/li&gt;
+  &lt;li&gt;Testing: &lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/dependency-viewer&quot;&gt;Dependency Viewer&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on March 18, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -23,7 +171,7 @@
   <author>
     <name>Chuyun Shen</name>
     <uri>http://localhost:4000</uri>
-    <email>chuyun.shen@mail.utoronto.ca</email>
+    <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;With React Native and Spring Boot, I wrote a party trivia app that will display user submitted questions.&lt;/p&gt;
 
@@ -44,11 +192,9 @@
   <author>
     <name>Chuyun Shen</name>
     <uri>http://localhost:4000</uri>
-    <email>chuyun.shen@mail.utoronto.ca</email>
+    <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;Poet is a lightweight Chrome extension that displays a new poem every day upon new tab launches.&lt;/p&gt;
-
-&lt;p&gt;Motivation: I caught myself never reading enough (to be pefectly honest, zero these days). I feel a little stuck in this hustle-bustle. I hope this brings you some solace and, more importantly, literacy…&lt;/p&gt;
 
 &lt;p&gt;Download Poet from the &lt;a href=&quot;https://chrome.google.com/webstore/detail/poet/hkjjflfleaejocakemkheofjcmkepbcm&quot;&gt; Chrome extension web store.&lt;/a&gt;&lt;/p&gt;
 
@@ -95,15 +241,15 @@ Refresh for a new poem.
   <author>
     <name>Chuyun Shen</name>
     <uri>http://localhost:4000</uri>
-    <email>chuyun.shen@mail.utoronto.ca</email>
+    <email>chuyun.shen@outlook.com</email>
   </author>
-  <content type="html">&lt;p&gt;After careful deliberation and thorough testing with our Facebook bots under my Startbucks alter ego Emma and &lt;a href=&quot;https://github.com/nataliamoran&quot;&gt;Natalia&lt;/a&gt;’s Russian mascot Boris Petrov, Genie was released. Genie, built on Python, sends your pre-drafted heartfelt birthday wishes to your Facebook friends.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Genie, built on Python, sends your pre-drafted heartfelt birthday wishes to your Facebook friends.&lt;/p&gt;
+
+&lt;p&gt;This is a collaborative project with &lt;a href=&quot;https://github.com/nataliamoran&quot;&gt;Natalia&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;[Insert gif here.]&lt;/p&gt;
 
-&lt;p&gt;Genie scrapes Facebook’s birthday calendar information. For Facebook friends who have not disclosed their birthday information on Facebook, users are also able to manually enter a birthday. Currently, the program requires users to log in every day to ensure the messages are sent. The logic is if the date matches a scheduled birthday, saved messages will be sent. However, in our next steps, we will be removing this barrier by taking it online.&lt;/p&gt;
-
-&lt;p&gt;We are actively designing a web application for Genie, making the user experience more sleek. We are going cross-platform: soon enough, you won’t be limited to only Facebook. Users will be able to schedule birthday wishes that can be sent through text messages. We are also integrating holiday calendars—you will never miss to wish your mother in law a happy thanksgiving ever again.&lt;/p&gt;
+&lt;p&gt;Genie scrapes Facebook’s birthday calendar information. For Facebook friends who have not disclosed their birthday information on Facebook, users are also able to manually enter a birthday.&lt;/p&gt;
 
 &lt;p&gt;See the full code &lt;a href=&quot;https://github.com/chuyunshen/genie&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
@@ -121,7 +267,7 @@ Refresh for a new poem.
   <author>
     <name>Chuyun Shen</name>
     <uri>http://localhost:4000</uri>
-    <email>chuyun.shen@mail.utoronto.ca</email>
+    <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;Recruitment system was done as part of the software design course at school. The requirements were given to us resembling how projects are handled in the industry. I got to practice design patterns, Java, and team work with this project that I worked on almost every day for two months.&lt;/p&gt;
 

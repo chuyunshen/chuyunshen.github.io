@@ -1,6 +1,6 @@
 /* TEAM */
 Creator: Chuyun Shen
-Contact: chuyun.shen@mail.utoronto.ca
+Contact: chuyun.shen@outlook.com
 Twitter: 
 Location: Toronto, Canada
                            
@@ -9,6 +9,6 @@ Creator of Balzac theme: Cole Townsend
 Twitter: @twnsndco
 
 /* SITE */                         
-Last update: 2020-06-18
+Last update: 2021-03-18
 Standards: HTML, SCSS, Jekyll                        
 Software: git
