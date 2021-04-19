@@ -5,13 +5,39 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-03-18T16:32:29-04:00</updated>
+<updated>2021-04-18T23:11:46-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
   <uri>http://localhost:4000/</uri>
   <email>chuyun.shen@outlook.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Calligrapher]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/calligrapher" />
+  <id>http://localhost:4000/articles/calligrapher</id>
+  <published>2021-04-18T00:00:00-04:00</published>
+  <updated>2021-04-18T00:00:00-04:00</updated>
+  <author>
+    <name>Chuyun Shen</name>
+    <uri>http://localhost:4000</uri>
+    <email>chuyun.shen@outlook.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Calligrapher is a Chrome extension (and soon to also be a web app) that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
+
+&lt;p&gt;URLs and source code coming soon…&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot2.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/calligrapher&quot;&gt;Calligrapher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on April 18, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -41,6 +67,8 @@
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Dependency Viewer dynamically obtains app lists Prometheus. Then, each app’s dependency information is fetched from the apps’ Spring Boot health metrics endpoint.&lt;/p&gt;
+
+&lt;p&gt;It greatly simplifies the challenges with debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
 
 &lt;p&gt;Note: Sensitive company information has been changed or blurred out and graph generation has been sped up.&lt;/p&gt;
 
@@ -178,6 +206,8 @@
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;/images/big-fuss.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;See the code &lt;a href=&quot;https://github.com/chuyunshen/big-fuss&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
 </entry>

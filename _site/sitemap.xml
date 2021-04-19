@@ -6,6 +6,10 @@
 
     
     <url>
+        <loc>http://localhost:4000/articles/calligrapher</loc>
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/articles/dependency-viewer</loc>
     </url>
     
