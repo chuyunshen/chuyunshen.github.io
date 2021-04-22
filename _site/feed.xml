@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-04-18T23:15:46-04:00</updated>
+<updated>2021-04-22T18:46:28-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -25,9 +25,12 @@
     <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
-  <content type="html">&lt;p&gt;Calligrapher is a Chrome extension (and soon to also be a web app) that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Calligrapher is a web app and a Chrome extension that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
 
-&lt;p&gt;URLs and source code coming soon…&lt;/p&gt;
+&lt;p&gt;Find the web app at &lt;a href=&quot;https://www.chinesecalligrapher.com&quot;&gt;chinesecalligrapher.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The extension is going to be on the Chrome web store (currently being reviewed and will be available soon).&lt;/p&gt;
+
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
@@ -263,7 +266,7 @@ Refresh for a new poem.
 
 
 <entry>
-  <title type="html"><![CDATA[Introducing Genie]]></title>
+  <title type="html"><![CDATA[Genie, the Automatic Birthday Wisher]]></title>
   <link rel="alternate" type="text/html" href="http://localhost:4000/genie" />
   <id>http://localhost:4000/genie</id>
   <published>2020-01-01T00:00:00-05:00</published>
@@ -284,7 +287,7 @@ Refresh for a new poem.
 &lt;p&gt;See the full code &lt;a href=&quot;https://github.com/chuyunshen/genie&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/genie&quot;&gt;Introducing Genie&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on January 01, 2020.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/genie&quot;&gt;Genie, the Automatic Birthday Wisher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on January 01, 2020.&lt;/p&gt;</content>
 </entry>
 
 
