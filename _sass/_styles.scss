@@ -693,10 +693,10 @@ footer {
     }
 
     .post-list img {
-        max-width: 400px;
+        max-width: 95%;
     }
     .post img {
-        max-width: 500px;
+        max-width: 95%;
     }
 }
 
@@ -727,11 +727,11 @@ footer {
     }
   }
     .post-list img {
-        max-width: 300px;
+        max-width: 90%;
     }
 
     .post img{
-        max-width: 380px;
+        max-width: 90%;
     }
 
 }
@@ -843,6 +843,14 @@ footer {
             background-color: $link;
         }
     }
+    .post-list img {
+        max-width: 95%;
+    }
+
+    .post img{
+        max-width: 95%;
+    }
+
 }
 
 

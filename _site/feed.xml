@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-04-22T18:46:28-04:00</updated>
+<updated>2021-05-08T11:22:41-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -69,11 +69,11 @@
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Dependency Viewer dynamically obtains app lists Prometheus. Then, each app’s dependency information is fetched from the apps’ Spring Boot health metrics endpoint.&lt;/p&gt;
+&lt;p&gt;Dependency Viewer dynamically obtains app lists from &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt;. Then, each app’s dependency information is fetched from the apps’ Spring Boot &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints&quot;&gt;endpoints&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It greatly simplifies the challenges with debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
+&lt;p&gt;It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
 
-&lt;p&gt;Note: Sensitive company information has been changed or blurred out and graph generation has been sped up.&lt;/p&gt;
+&lt;p&gt;Note: Sensitive company information has been changed or blurred out and graph generations have been sped up.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 &lt;h3 id=&quot;main-tool-bar&quot;&gt;Main Tool Bar&lt;/h3&gt;
@@ -118,7 +118,7 @@
     &lt;img src=&quot;/images/dv/dv-highlight.gif&quot; alt=&quot;highlight feature&quot; width=&quot;680&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Select a view&lt;/strong&gt;: You can toggle between colour-coding app statuses (green for up and red for down) and environments (light blue for development, medium-blue for staging, dark blue for production).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Select a view&lt;/strong&gt;: You can toggle between colour-coding app statuses (green for up and red for down) and environments (light blue for development, medium blue for staging, dark blue for production).&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
     &lt;img src=&quot;/images/dv/dv-view.gif&quot; alt=&quot;view feature&quot; width=&quot;680&quot; /&gt;
@@ -126,7 +126,7 @@
 
 &lt;p&gt;&lt;strong&gt;Show circular dependencies&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A. highlight different instances of the same apps (e.g., different versions of an app exist in the graph)&lt;/li&gt;
+  &lt;li&gt;A. Highlight different instances of the same apps (e.g., different versions of an app exist in the graph)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p align=&quot;center&quot;&gt;
@@ -134,20 +134,20 @@
 &lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;B. highlight same instances of the same apps (e.g., the edges within a circular loop of app1→ app2 → app3 → app1 and the repeated app app1 will be highlighted in purple).&lt;/li&gt;
+  &lt;li&gt;B. Highlight same instances of the same apps (e.g., the edges within a circular loop of “app1 → app2 → app3 → app1”).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p align=&quot;center&quot;&gt;
     &lt;img src=&quot;/images/dv/dv-circular-B.gif&quot; alt=&quot;circular B feature&quot; width=&quot;680&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Collapse duplicate apps&lt;/strong&gt;: Collapses apps that have the same name / url but different versions to show a more concise graph. This is to priorize the understanding of app relationships.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collapse duplicate apps&lt;/strong&gt;: Collapse apps that have the same name / url but different versions to show a more concise graph. This is to priorize the understanding of app relationships.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
     &lt;img src=&quot;/images/dv/dv-collapse.gif&quot; alt=&quot;collapse feature&quot; width=&quot;680&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Show more information&lt;/strong&gt;: Click on the ⓘ icon or alternatively press ‘?’ to see a guide to reading a graph.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Show more information&lt;/strong&gt;: Click on the ⓘ icon or alternatively press ‘?’ on the keyboard to see a guide to reading a graph.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
     &lt;img src=&quot;/images/dv/dv-legend.gif&quot; alt=&quot;legend feature&quot; width=&quot;680&quot; /&gt;
@@ -155,9 +155,9 @@
 
 &lt;h3 id=&quot;app-panel&quot;&gt;App Panel&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;View info link&lt;/strong&gt;: Open the app’s info link in a new tab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;View info link&lt;/strong&gt;: Open the app’s information link in a new tab.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;View sub-dependencies&lt;/strong&gt;: See a graph of sub-dependencies of the chosen app in a new tab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;View sub-dependencies&lt;/strong&gt;: See a graph of a chosen app’s sub-dependencies in a new tab.&lt;/p&gt;
 
 &lt;h3 id=&quot;advanced-options&quot;&gt;Advanced Options&lt;/h3&gt;
 
@@ -167,7 +167,7 @@
     &lt;img src=&quot;/images/dv/dv-advanced.gif&quot; alt=&quot;advanced options feature&quot; width=&quot;680&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Clear cache&lt;/strong&gt;: When something is wrong with the app lists that are displayed in the dropdown menus, you can click the Clear Cache button to refresh the cached app lists.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Clear cache&lt;/strong&gt;: To get realtime app lists (for example, a new app is deployed), you can click the Clear Cache button to refresh the cached app lists.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Enter custom URL&lt;/strong&gt;: In the case when you can’t find an app, you can enter your own URL.&lt;/p&gt;
 
