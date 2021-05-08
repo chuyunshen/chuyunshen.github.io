@@ -18,11 +18,11 @@ Dependency Viewer presents application dependency information in graphs.
 
 ## Introduction
 
-Dependency Viewer dynamically obtains app lists Prometheus. Then, each app's dependency information is fetched from the apps' Spring Boot health metrics endpoint.
+Dependency Viewer dynamically obtains app lists from [Prometheus](https://prometheus.io/). Then, each app's dependency information is fetched from the apps' Spring Boot [endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints).
 
-It greatly simplifies the challenges with debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.
+It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.
 
-Note: Sensitive company information has been changed or blurred out and graph generation has been sped up.
+Note: Sensitive company information has been changed or blurred out and graph generations have been sped up.
 
 
 ## Features
@@ -69,7 +69,7 @@ Note: Sensitive company information has been changed or blurred out and graph ge
     <img src='/images/dv/dv-highlight.gif' alt="highlight feature" width="680"/>
 </p>
 
-**Select a view**: You can toggle between colour-coding app statuses (green for up and red for down) and environments (light blue for development, medium-blue for staging, dark blue for production).
+**Select a view**: You can toggle between colour-coding app statuses (green for up and red for down) and environments (light blue for development, medium blue for staging, dark blue for production).
 
 <p align="center">
     <img src='/images/dv/dv-view.gif' alt="view feature" width="680"/>
@@ -77,25 +77,25 @@ Note: Sensitive company information has been changed or blurred out and graph ge
 
 
 **Show circular dependencies**:
-- A. highlight different instances of the same apps (e.g., different versions of an app exist in the graph)
+- A. Highlight different instances of the same apps (e.g., different versions of an app exist in the graph)
 
 <p align="center">
     <img src='/images/dv/dv-circular-A.gif' alt="circular A feature" width="680"/>
 </p>
 
--  B. highlight same instances of the same apps (e.g., the edges within a circular loop of app1→ app2 → app3 → app1 and the repeated app app1 will be highlighted in purple).
+-  B. Highlight same instances of the same apps (e.g., the edges within a circular loop of "app1 → app2 → app3 → app1").
 
 <p align="center">
     <img src='/images/dv/dv-circular-B.gif' alt="circular B feature" width="680"/>
 </p>
 
-**Collapse duplicate apps**: Collapses apps that have the same name / url but different versions to show a more concise graph. This is to priorize the understanding of app relationships.
+**Collapse duplicate apps**: Collapse apps that have the same name / url but different versions to show a more concise graph. This is to priorize the understanding of app relationships.
 
 <p align="center">
     <img src='/images/dv/dv-collapse.gif' alt="collapse feature" width="680"/>
 </p>
 
-**Show more information**: Click on the ⓘ icon or alternatively press '?' to see a guide to reading a graph.
+**Show more information**: Click on the ⓘ icon or alternatively press '?' on the keyboard to see a guide to reading a graph.
 
 <p align="center">
     <img src='/images/dv/dv-legend.gif' alt="legend feature" width="680"/>
@@ -103,9 +103,9 @@ Note: Sensitive company information has been changed or blurred out and graph ge
 
 ### App Panel
 
-**View info link**: Open the app's info link in a new tab.
+**View info link**: Open the app's information link in a new tab.
 
-**View sub-dependencies**: See a graph of sub-dependencies of the chosen app in a new tab.
+**View sub-dependencies**: See a graph of a chosen app's sub-dependencies in a new tab.
 
 ### Advanced Options 
 
@@ -116,7 +116,7 @@ Under ⚙️ tab
 </p>
 
 
-**Clear cache**: When something is wrong with the app lists that are displayed in the dropdown menus, you can click the Clear Cache button to refresh the cached app lists.
+**Clear cache**: To get realtime app lists (for example, a new app is deployed), you can click the Clear Cache button to refresh the cached app lists.
 
 **Enter custom URL**: In the case when you can't find an app, you can enter your own URL.
 
