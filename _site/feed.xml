@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-05-08T23:44:15-04:00</updated>
+<updated>2021-05-09T12:38:25-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -38,6 +38,30 @@
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot2.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
+
+&lt;p&gt;
+The idea of the tool was formulated to encourage my boyfriend to learn Mandarin after he binge-watched a Chinese drama.
+&lt;/p&gt;
+
+&lt;p&gt;
+Calligrapher generates printer and tablet-friendly PDF worksheets to aid writing Chinese characters much like the worksheets that I used in elementary school. However, instead of having only traceable characters, Calligrapher gives customizable lexical context.
+&lt;/p&gt;
+
+&lt;p&gt;
+With Calligrapher, your worksheets are labelled with pronunciations, radicals, stroke orders, as well as individual character and full text translations. There are also different fonts to choose from, providing advanced Chinese learners with a template to improve cursive Chinese calligraphy.
+&lt;/p&gt;
+
+&lt;p&gt;
+More features are currently in the making. To accomodate the spaced repetition learning technique, flashcards with animated stroke orders and voice pronunciations as well as quizzes based on past user text input will soon be available.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Frontend: JavaScript, HTML, CSS&lt;/li&gt;
+  &lt;li&gt;Backend: &lt;a href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;, &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; and &lt;a href=&quot;https://ejs.co/&quot;&gt;EJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;APIs for getting character information: &lt;a href=&quot;https://cloud.google.com/translate&quot;&gt;Google Cloud Tranlation API&lt;/a&gt; and &lt;a href=&quot;https://hanziwriter.org/&quot;&gt;Hanzi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CI/CD: &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt; and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/calligrapher&quot;&gt;Calligrapher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on April 18, 2021.&lt;/p&gt;</content>
 </entry>
@@ -73,7 +97,7 @@
 
 &lt;p&gt;It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
 
-&lt;p&gt;Note: Sensitive company information has been changed or blurred out and graph generations have been sped up.&lt;/p&gt;
+&lt;p&gt;Note: Dependency Viewer is a project that I created during my internship at the Ontario Teachers’ Pension Plan. Sensitive company information has been changed or blurred out and graph generations have been sped up.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 &lt;h3 id=&quot;main-tool-bar&quot;&gt;Main Tool Bar&lt;/h3&gt;
@@ -183,9 +207,10 @@
 
 &lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Frontend: JavaScript with &lt;a href=&quot;https://stenciljs.com/&quot;&gt;StencilJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Frontend: &lt;a href=&quot;https://stenciljs.com/&quot;&gt;StencilJS&lt;/a&gt; (JavaScript, HTML, and CSS)&lt;/li&gt;
   &lt;li&gt;Graph library: &lt;a href=&quot;https://js.cytoscape.org/&quot;&gt;Cytoscape&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Backend: NodeJS&lt;/li&gt;
+  &lt;li&gt;Backend: &lt;a href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt; and &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CI/CD: &lt;a href=&quot;https://www.atlassian.com/software/bamboo&quot;&gt;Bamboo&lt;/a&gt; and &lt;a href=&quot;https://docs.pivotal.io/&quot;&gt;Pivotal Cloud Foundry&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Testing: &lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -204,7 +229,7 @@
     <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
-  <content type="html">&lt;p&gt;With React Native and Spring Boot, I wrote a party trivia app that will display user submitted questions.&lt;/p&gt;
+  <content type="html">&lt;p&gt;With &lt;a href=&quot;https://reactnative.dev/&quot;&gt;React Native&lt;/a&gt; and &lt;a href=&quot;https://spring.io/projects/spring-boot&quot;&gt;Spring Boot&lt;/a&gt;, I wrote a party trivia mobile (iOS and Android compatible) app that will display user submitted questions.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;/images/big-fuss.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;

@@ -22,7 +22,7 @@ Dependency Viewer dynamically obtains app lists from [Prometheus](https://promet
 
 It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.
 
-Note: Sensitive company information has been changed or blurred out and graph generations have been sped up.
+Note: Dependency Viewer is a project that I created during my internship at the Ontario Teachers' Pension Plan. Sensitive company information has been changed or blurred out and graph generations have been sped up.
 
 
 ## Features
@@ -132,7 +132,8 @@ Under ⚙️ tab
 
 
 ## Tools
-- Frontend: JavaScript with [StencilJS](https://stenciljs.com/)
+- Frontend: [StencilJS](https://stenciljs.com/) (JavaScript, HTML, and CSS)
 - Graph library: [Cytoscape](https://js.cytoscape.org/)
-- Backend: NodeJS
+- Backend: [NodeJS](https://nodejs.org/) and [Express](https://expressjs.com/)
+- CI/CD: [Bamboo](https://www.atlassian.com/software/bamboo) and [Pivotal Cloud Foundry](https://docs.pivotal.io/)
 - Testing: [Jest](https://jestjs.io/)
