@@ -2,21 +2,27 @@
 layout: post-no-feature
 title: Calligrapher
 categories: articles
-image: '/images/calligrapher/calligrapher_chrome_extension_screenshot1.png' 
+image: '/images/calligrapher/calligrapher-homepage.png' 
 ---
 
-Calligrapher is a web app and a Chrome extension that aids the Chinese language learning by generating character PDF worksheets.
+Calligrapher is a web app that aids the Chinese language learning by generating character PDF worksheets.
 
-Find the web app at [chinesecalligrapher.com](https://www.chinesecalligrapher.com).
-
-The extension is going to be on the Chrome web store (currently being reviewed and will be available soon).
+Find the web app at <a href="https://www.chinesecalligrapher.com" target="_blank">chinesecalligrapher.com</a>.
 
 <p align="center">
-<img src='/images/calligrapher/calligrapher_chrome_extension_screenshot1.png' alt="" width="700px">
+<img src='/images/calligrapher/calligrapher-homepage.png' alt="" width="700px">
 </p>
 
 <p align="center">
-<img src='/images/calligrapher/calligrapher_chrome_extension_screenshot2.png' alt="" width="700px">
+<img src='/images/calligrapher/screenshot-1.png' alt="" width="700px">
+</p>
+
+<p align="center">
+<img src='/images/calligrapher/screenshot-2.png' alt="" width="700px">
+</p>
+
+<p align="center">
+<img src='/images/calligrapher/photoshoot-marble.jpg' alt="" width="700px">
 </p>
 
 <p>
@@ -37,6 +43,6 @@ More features are currently in the making. To accomodate the spaced repetition l
 
 ### Tools
 - Frontend: JavaScript, HTML, CSS
-- Backend: [NodeJS](https://nodejs.org/), [Express](https://expressjs.com/) and [EJS](https://ejs.co/)
-- APIs for getting character information: [Google Cloud Tranlation API](https://cloud.google.com/translate) and [Hanzi](https://hanziwriter.org/)
-- CI/CD: [Digital Ocean](https://www.digitalocean.com/) and [GitHub Actions](https://github.com/features/actions)
+- Backend: <a target="_blank" href="https://nodejs.org/">NodeJS</a>, <a target="_blank" href="https://expressjs.com/">Express</a> and <a target="_blank" href="https://ejs.co/">EJS</a>
+- APIs for getting character information: <a target="_blank" href="https://cloud.google.com/translate">Google Cloud Tranlation API</a> and <a target="_blank" href="https://hanziwriter.org/">Hanzi</a>
+- CI/CD: <a target="_blank" href="https://www.digitalocean.com/">Digital Ocean</a> and <a target="_blank" href="https://github.com/features/actions">GitHub Actions</a>

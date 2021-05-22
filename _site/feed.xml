@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-05-09T13:37:37-04:00</updated>
+<updated>2021-05-21T22:00:30-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -25,18 +25,24 @@
     <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
-  <content type="html">&lt;p&gt;Calligrapher is a web app and a Chrome extension that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Calligrapher is a web app that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
 
-&lt;p&gt;Find the web app at &lt;a href=&quot;https://www.chinesecalligrapher.com&quot;&gt;chinesecalligrapher.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The extension is going to be on the Chrome web store (currently being reviewed and will be available soon).&lt;/p&gt;
+&lt;p&gt;Find the web app at &lt;a href=&quot;https://www.chinesecalligrapher.com&quot; target=&quot;_blank&quot;&gt;chinesecalligrapher.com&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/images/calligrapher/calligrapher-homepage.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/calligrapher_chrome_extension_screenshot2.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/images/calligrapher/screenshot-1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/calligrapher/screenshot-2.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;img src=&quot;/images/calligrapher/photoshoot-marble.jpg&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -58,9 +64,9 @@ More features are currently in the making. To accomodate the spaced repetition l
 &lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Frontend: JavaScript, HTML, CSS&lt;/li&gt;
-  &lt;li&gt;Backend: &lt;a href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;, &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; and &lt;a href=&quot;https://ejs.co/&quot;&gt;EJS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;APIs for getting character information: &lt;a href=&quot;https://cloud.google.com/translate&quot;&gt;Google Cloud Tranlation API&lt;/a&gt; and &lt;a href=&quot;https://hanziwriter.org/&quot;&gt;Hanzi&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CI/CD: &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt; and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Backend: &lt;a target=&quot;_blank&quot; href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;, &lt;a target=&quot;_blank&quot; href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://ejs.co/&quot;&gt;EJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;APIs for getting character information: &lt;a target=&quot;_blank&quot; href=&quot;https://cloud.google.com/translate&quot;&gt;Google Cloud Tranlation API&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://hanziwriter.org/&quot;&gt;Hanzi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CI/CD: &lt;a target=&quot;_blank&quot; href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/calligrapher&quot;&gt;Calligrapher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on April 18, 2021.&lt;/p&gt;</content>
@@ -93,7 +99,7 @@ More features are currently in the making. To accomodate the spaced repetition l
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Dependency Viewer dynamically obtains app lists from &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt;. Then, each app’s dependency information is fetched from the apps’ Spring Boot &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints&quot;&gt;endpoints&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dependency Viewer dynamically obtains app lists from &lt;a target=&quot;_blank&quot; href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt;. Then, each app’s dependency information is fetched from the apps’ &lt;a target=&quot;_blank&quot; href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints&quot;&gt;Spring Boot endpoints&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
 
@@ -207,11 +213,11 @@ More features are currently in the making. To accomodate the spaced repetition l
 
 &lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Frontend: &lt;a href=&quot;https://stenciljs.com/&quot;&gt;StencilJS&lt;/a&gt; (JavaScript, HTML, and CSS)&lt;/li&gt;
-  &lt;li&gt;Graph library: &lt;a href=&quot;https://js.cytoscape.org/&quot;&gt;Cytoscape&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Backend: &lt;a href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt; and &lt;a href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;CI/CD: &lt;a href=&quot;https://www.atlassian.com/software/bamboo&quot;&gt;Bamboo&lt;/a&gt; and &lt;a href=&quot;https://docs.pivotal.io/&quot;&gt;Pivotal Cloud Foundry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Testing: &lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Frontend: &lt;a target=&quot;_blank&quot; href=&quot;https://stenciljs.com/&quot;&gt;StencilJS&lt;/a&gt; (JavaScript, HTML, and CSS)&lt;/li&gt;
+  &lt;li&gt;Graph library: &lt;a target=&quot;_blank&quot; href=&quot;https://js.cytoscape.org/&quot;&gt;Cytoscape&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Backend: &lt;a target=&quot;_blank&quot; href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://expressjs.com/&quot;&gt;Express&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;CI/CD: &lt;a target=&quot;_blank&quot; href=&quot;https://www.atlassian.com/software/bamboo&quot;&gt;Bamboo&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://docs.pivotal.io/&quot;&gt;Pivotal Cloud Foundry]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Testing: &lt;a target=&quot;_blank&quot; href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/dependency-viewer&quot;&gt;Dependency Viewer&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on March 18, 2021.&lt;/p&gt;</content>
@@ -229,13 +235,13 @@ More features are currently in the making. To accomodate the spaced repetition l
     <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
-  <content type="html">&lt;p&gt;With &lt;a href=&quot;https://reactnative.dev/&quot;&gt;React Native&lt;/a&gt; and &lt;a href=&quot;https://spring.io/projects/spring-boot&quot;&gt;Spring Boot&lt;/a&gt;, I wrote a party trivia mobile (iOS and Android compatible) app that will display user submitted questions.&lt;/p&gt;
+  <content type="html">&lt;p&gt;With &lt;a target=&quot;_blank&quot; href=&quot;https://reactnative.dev/&quot;&gt;React Native&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://spring.io/projects/spring-boot&quot;&gt;Spring Boot&lt;/a&gt;, I wrote a party trivia mobile (iOS and Android compatible) app that will display user submitted questions.&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
 &lt;img src=&quot;/images/big-fuss.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;See the code &lt;a href=&quot;https://github.com/chuyunshen/big-fuss&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See the code &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/big-fuss&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
 </entry>
@@ -287,10 +293,10 @@ Refresh for a new poem.
 &lt;h3 id=&quot;tools&quot;&gt;Tools:&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;User Interface: JavaScript, HTML, and CSS&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.chrome.com/docs/extensions/reference/&quot;&gt;Chrome API&lt;/a&gt;: Service Worker to make REST calls and localStorage to store users’ daily poem and favourite poems.&lt;/li&gt;
+  &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://developer.chrome.com/docs/extensions/reference/&quot;&gt;Chrome API&lt;/a&gt;: Service Worker to make REST calls and localStorage to store users’ daily poem and favourite poems.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Check out the source code on my &lt;a href=&quot;https://github.com/chuyunshen/poet&quot;&gt; GitHub.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out the source code on my &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/poet&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/poet&quot;&gt;Poet&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 20, 2020.&lt;/p&gt;</content>
 </entry>
@@ -309,14 +315,11 @@ Refresh for a new poem.
   </author>
   <content type="html">&lt;p&gt;Genie, built on Python, sends your pre-drafted heartfelt birthday wishes to your Facebook friends.&lt;/p&gt;
 
-&lt;p&gt;This is a collaborative project with &lt;a href=&quot;https://github.com/nataliamoran&quot;&gt;Natalia&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;[Insert gif here.]&lt;/p&gt;
+&lt;p&gt;This is a collaborative project with &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/nataliamoran&quot;&gt;Natalia&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Genie scrapes Facebook’s birthday calendar information. For Facebook friends who have not disclosed their birthday information on Facebook, users are also able to manually enter a birthday.&lt;/p&gt;
 
-&lt;p&gt;See the full code &lt;a href=&quot;https://github.com/chuyunshen/genie&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;See the full code &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/genie&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://localhost:4000/genie&quot;&gt;Genie, the Automatic Birthday Wisher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on January 01, 2020.&lt;/p&gt;</content>
 </entry>
@@ -335,7 +338,7 @@ Refresh for a new poem.
   </author>
   <content type="html">&lt;p&gt;Recruitment system was done as part of the software design course at school. The requirements were given to us resembling how projects are handled in the industry. I got to practice design patterns, Java, and team work with this project that I worked on almost every day for two months.&lt;/p&gt;
 
-&lt;p&gt;Source code can be found on &lt;a href=&quot;https://github.com/chuyunshen/recruitment-system&quot;&gt;my GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Source code can be found on &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/recruitment-system&quot;&gt;my GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Below are a few UML digrams illustrasting the design for our system.&lt;/p&gt;
 

@@ -18,7 +18,7 @@ Dependency Viewer presents application dependency information in graphs.
 
 ## Introduction
 
-Dependency Viewer dynamically obtains app lists from [Prometheus](https://prometheus.io/). Then, each app's dependency information is fetched from the apps' Spring Boot [endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints).
+Dependency Viewer dynamically obtains app lists from <a target="_blank" href="https://prometheus.io/">Prometheus</a>. Then, each app's dependency information is fetched from the apps' <a target="_blank" href="https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints">Spring Boot endpoints</a>.
 
 It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.
 
@@ -132,8 +132,8 @@ Under ⚙️ tab
 
 
 ## Tools
-- Frontend: [StencilJS](https://stenciljs.com/) (JavaScript, HTML, and CSS)
-- Graph library: [Cytoscape](https://js.cytoscape.org/)
-- Backend: [NodeJS](https://nodejs.org/) and [Express](https://expressjs.com/)
-- CI/CD: [Bamboo](https://www.atlassian.com/software/bamboo) and [Pivotal Cloud Foundry](https://docs.pivotal.io/)
-- Testing: [Jest](https://jestjs.io/)
+- Frontend: <a target="_blank" href="https://stenciljs.com/">StencilJS</a> (JavaScript, HTML, and CSS)
+- Graph library: <a target="_blank" href="https://js.cytoscape.org/">Cytoscape</a>
+- Backend: <a target="_blank" href="https://nodejs.org/">NodeJS</a> and <a target="_blank" href="https://expressjs.com/">Express</a>)
+- CI/CD: <a target="_blank" href="https://www.atlassian.com/software/bamboo">Bamboo</a> and <a target="_blank" href="https://docs.pivotal.io/">Pivotal Cloud Foundry]</a>
+- Testing: <a target="_blank" href="https://jestjs.io/">Jest</a>
