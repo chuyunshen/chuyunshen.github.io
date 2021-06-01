@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2021-05-21T22:12:09-04:00</updated>
+<updated>2021-05-31T23:45:54-04:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -27,22 +27,25 @@
   </author>
   <content type="html">&lt;p&gt;Calligrapher is a web app that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
 
-&lt;p&gt;Find the web app at &lt;a href=&quot;https://www.chinesecalligrapher.com&quot; target=&quot;_blank&quot;&gt;chinesecalligrapher.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Try it at &lt;a href=&quot;https://www.chinesecalligrapher.com&quot; target=&quot;_blank&quot;&gt;chinesecalligrapher.com&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/calligrapher-homepage.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;p align=&quot;center&quot;&gt; 
+&lt;figure&gt;
+    &lt;img src=&quot;/images/calligrapher/reddit-fame.png&quot; alt=&quot;A bit of Reddit fame&quot; width=&quot;670px&quot; /&gt;
+    &lt;figcaption&gt;My Reddit award ceremony :D&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/screenshot-1.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/images/calligrapher/screenshot-1.png&quot; alt=&quot;&quot; width=&quot;670px&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/screenshot-2.png&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/images/calligrapher/screenshot-2.png&quot; alt=&quot;&quot; width=&quot;670px&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;
-&lt;img src=&quot;/images/calligrapher/photoshoot-marble.jpg&quot; alt=&quot;&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/images/calligrapher/photoshoot-marble.jpg&quot; alt=&quot;&quot; width=&quot;670px&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -101,7 +104,7 @@ More features are currently in the making. To accomodate the spaced repetition l
 
 &lt;p&gt;Dependency Viewer dynamically obtains app lists from &lt;a target=&quot;_blank&quot; href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt;. Then, each app’s dependency information is fetched from the apps’ &lt;a target=&quot;_blank&quot; href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints&quot;&gt;Spring Boot endpoints&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It greatly simplifies debugging production issues spanned across multiple applications and also familiarizes developers with app relationships.&lt;/p&gt;
+&lt;p&gt;It greatly simplifies debugging production issues that are spanned across multiple applications and also familiarizes developers with app dependency relationships.&lt;/p&gt;
 
 &lt;p&gt;Note: Dependency Viewer is a project that I created during my internship at the Ontario Teachers’ Pension Plan. Sensitive company information has been changed or blurred out and graph generations have been sped up.&lt;/p&gt;
 

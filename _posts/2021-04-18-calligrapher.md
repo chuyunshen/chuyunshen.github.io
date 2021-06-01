@@ -7,22 +7,25 @@ image: '/images/calligrapher/calligrapher-homepage.png'
 
 Calligrapher is a web app that aids the Chinese language learning by generating character PDF worksheets.
 
-Find the web app at <a href="https://www.chinesecalligrapher.com" target="_blank">chinesecalligrapher.com</a>.
+Try it at <a href="https://www.chinesecalligrapher.com" target="_blank">chinesecalligrapher.com</a>.
 
-<p align="center">
-<img src='/images/calligrapher/calligrapher-homepage.png' alt="" width="700px">
+<p align="center"> 
+<figure>
+    <img src='/images/calligrapher/reddit-fame.png' alt="A bit of Reddit fame" width="670px">
+    <figcaption>My Reddit award ceremony :D</figcaption>
+</figure>
 </p>
 
 <p align="center">
-<img src='/images/calligrapher/screenshot-1.png' alt="" width="700px">
+<img src='/images/calligrapher/screenshot-1.png' alt="" width="670px">
 </p>
 
 <p align="center">
-<img src='/images/calligrapher/screenshot-2.png' alt="" width="700px">
+<img src='/images/calligrapher/screenshot-2.png' alt="" width="670px">
 </p>
 
 <p align="center">
-<img src='/images/calligrapher/photoshoot-marble.jpg' alt="" width="700px">
+<img src='/images/calligrapher/photoshoot-marble.jpg' alt="" width="670px">
 </p>
 
 <p>
