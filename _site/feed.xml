@@ -3,26 +3,69 @@
 <title type="text">Chuyun Shen</title>
 <subtitle type="text">A beautiful theme.</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2023-01-29T15:18:44-05:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2023-02-07T17:18:31-05:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
-  <uri>/</uri>
+  <uri>http://localhost:4000/</uri>
   <email>chuyun.shen@outlook.com</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[Traditou]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/traditou" />
+  <id>http://localhost:4000/articles/traditou</id>
+  <published>2023-02-07T00:00:00-05:00</published>
+  <updated>2023-02-07T00:00:00-05:00</updated>
+  <author>
+    <name>Chuyun Shen</name>
+    <uri>http://localhost:4000</uri>
+    <email>chuyun.shen@outlook.com</email>
+  </author>
+  <content type="html">&lt;p align=&quot;center&quot;&gt;
+    &lt;img id=&quot;main-gif&quot; src=&quot;/images/traditou/telequebec_screenshot2.png&quot; style=&quot;width: 550px; margin-top: 70px;; margin-bottom: 70px;; border-radius: 5px; outline-style: solid; outline-width: 1px; outline-color: grey; box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 10px 10px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.0);&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;img id=&quot;main-gif&quot; src=&quot;/images/traditou/demo.gif&quot; style=&quot;width: 670px&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Traditou has been submitted on the Chrome Web Store, pending approval.&lt;/p&gt;
+
+&lt;p&gt;Traditou intercepts the original subtitle files sent from the website servers, 
+    parses them and displays the original subtitles along with English subtitles on the bottom, with Google translate.
+&lt;/p&gt;
+
+&lt;p&gt;This extension can be used with the trifecta of French Canadian streaming websites: 
+    &lt;a href=&quot;https://ici.tou.tv/&quot; target=&quot;_blank&quot;&gt;Tou.tv&lt;/a&gt;, 
+    &lt;a href=&quot;https://noovo.ca&quot; target=&quot;_blank&quot;&gt;Noovo.ca&lt;/a&gt;, 
+    and &lt;a href=&quot;https://video.telequebec.tv/&quot; target=&quot;_blank&quot;&gt;TeleQuebec&lt;/a&gt;, 
+    with the goal of French language learning in mind.&lt;/p&gt;
+&lt;p&gt;Traditou not only matches words closely, it also transforms TV-style rolling captions 
+    (which are visually difficult to follow) into more readable streaming service style subtitles.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Frontend: JavaScript, HTML, CSS&lt;/li&gt;
+  &lt;li&gt;Backend: &lt;a target=&quot;_blank&quot; href=&quot;https://nodejs.org/&quot;&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;CI/CD: &lt;a target=&quot;_blank&quot; href=&quot;https://developer.chrome.com/docs/extensions/reference/&quot;&gt;Chrome Extension API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/traditou&quot;&gt;Traditou&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on February 07, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Calligrapher]]></title>
-  <link rel="alternate" type="text/html" href="/articles/calligrapher" />
-  <id>/articles/calligrapher</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/calligrapher" />
+  <id>http://localhost:4000/articles/calligrapher</id>
   <published>2021-04-18T00:00:00-04:00</published>
   <updated>2021-04-18T00:00:00-04:00</updated>
   <author>
     <name>Chuyun Shen</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;Calligrapher is a web app that aids the Chinese language learning by generating character PDF worksheets.&lt;/p&gt;
@@ -72,19 +115,19 @@ More features are currently in the making. To accomodate the spaced repetition l
   &lt;li&gt;CI/CD: &lt;a target=&quot;_blank&quot; href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Ocean&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/calligrapher&quot;&gt;Calligrapher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;&quot;&gt;Chuyun Shen&lt;/a&gt; on April 18, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/calligrapher&quot;&gt;Calligrapher&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on April 18, 2021.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Dependency Viewer]]></title>
-  <link rel="alternate" type="text/html" href="/articles/dependency-viewer" />
-  <id>/articles/dependency-viewer</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/dependency-viewer" />
+  <id>http://localhost:4000/articles/dependency-viewer</id>
   <published>2021-03-18T00:00:00-04:00</published>
   <updated>2021-03-18T00:00:00-04:00</updated>
   <author>
     <name>Chuyun Shen</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;Dependency Viewer presents application dependency information in graphs.&lt;/p&gt;
@@ -223,19 +266,19 @@ More features are currently in the making. To accomodate the spaced repetition l
   &lt;li&gt;Testing: &lt;a target=&quot;_blank&quot; href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/dependency-viewer&quot;&gt;Dependency Viewer&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;&quot;&gt;Chuyun Shen&lt;/a&gt; on March 18, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/dependency-viewer&quot;&gt;Dependency Viewer&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on March 18, 2021.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Big Fuss]]></title>
-  <link rel="alternate" type="text/html" href="/articles/big-fuss" />
-  <id>/articles/big-fuss</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/big-fuss" />
+  <id>http://localhost:4000/articles/big-fuss</id>
   <published>2020-05-30T00:00:00-04:00</published>
   <updated>2020-05-30T00:00:00-04:00</updated>
   <author>
     <name>Chuyun Shen</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;With &lt;a target=&quot;_blank&quot; href=&quot;https://reactnative.dev/&quot;&gt;React Native&lt;/a&gt; and &lt;a target=&quot;_blank&quot; href=&quot;https://spring.io/projects/spring-boot&quot;&gt;Spring Boot&lt;/a&gt;, I wrote a party trivia mobile (iOS and Android compatible) app that will display user submitted questions.&lt;/p&gt;
@@ -246,19 +289,19 @@ More features are currently in the making. To accomodate the spaced repetition l
 
 &lt;p&gt;See the code &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/big-fuss&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/big-fuss&quot;&gt;Big Fuss&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 30, 2020.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Poet]]></title>
-  <link rel="alternate" type="text/html" href="/articles/poet" />
-  <id>/articles/poet</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/poet" />
+  <id>http://localhost:4000/articles/poet</id>
   <published>2020-05-20T00:00:00-04:00</published>
   <updated>2020-05-20T00:00:00-04:00</updated>
   <author>
     <name>Chuyun Shen</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chuyun.shen@outlook.com</email>
   </author>
   <content type="html">&lt;p&gt;Poet is a lightweight Chrome extension that displays a new poem every day upon new tab launches.&lt;/p&gt;
@@ -301,7 +344,7 @@ Refresh for a new poem.
 
 &lt;p&gt;Check out the source code on my &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chuyunshen/poet&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/poet&quot;&gt;Poet&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;&quot;&gt;Chuyun Shen&lt;/a&gt; on May 20, 2020.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/poet&quot;&gt;Poet&lt;/a&gt; was originally published by Chuyun Shen at &lt;a href=&quot;http://localhost:4000&quot;&gt;Chuyun Shen&lt;/a&gt; on May 20, 2020.&lt;/p&gt;</content>
 </entry>
 
 </feed>
