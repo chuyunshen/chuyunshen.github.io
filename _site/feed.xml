@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2023-02-07T17:44:40-05:00</updated>
+<updated>2023-02-17T10:31:07-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chuyun Shen</name>
@@ -32,20 +32,111 @@
     &lt;img id=&quot;main-gif&quot; src=&quot;/images/traditou/demo.gif&quot; style=&quot;width: 670px&quot; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Traditou has been submitted on the Chrome Web Store, pending approval.&lt;/p&gt;
-&lt;p&gt;Check out the repository on &lt;a href=&quot;https://github.com/chuyunshen/traditou&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Find Traditou on the &lt;a href=&quot;https://chrome.google.com/webstore/detail/traditou/bkjdjjgheofjpchhfpbnfcaklcboaoob&quot; target=&quot;_blank&quot;&gt;Chrome Web Store&lt;/a&gt; and check out the repository on &lt;a href=&quot;https://github.com/chuyunshen/traditou&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Traditou intercepts the original subtitle files sent from the website servers, 
-    parses them and displays the original subtitles along with English subtitles on the bottom, with Google translate.
-&lt;/p&gt;
+&lt;p&gt;Traditou finds the original subtitle files sent from the website servers, parses them and displays the original subtitles along with English subtitles on the bottom, with Google translate.&lt;/p&gt;
 
-&lt;p&gt;This extension can be used with the trifecta of French Canadian streaming websites: 
+&lt;p&gt;This extension can be used with three French Canadian video streaming websites: 
     &lt;a href=&quot;https://ici.tou.tv/&quot; target=&quot;_blank&quot;&gt;Tou.tv&lt;/a&gt;, 
     &lt;a href=&quot;https://noovo.ca&quot; target=&quot;_blank&quot;&gt;Noovo.ca&lt;/a&gt;, 
-    and &lt;a href=&quot;https://video.telequebec.tv/&quot; target=&quot;_blank&quot;&gt;TeleQuebec&lt;/a&gt;, 
-    with the goal of French language learning in mind.&lt;/p&gt;
-&lt;p&gt;Traditou not only matches words closely, it also transforms TV-style rolling captions 
-    (which are visually difficult to follow) into more readable streaming service style subtitles.&lt;/p&gt;
+    and &lt;a href=&quot;https://video.telequebec.tv/&quot; target=&quot;_blank&quot;&gt;TeleQuebec&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Traditou not only matches words closely, it also transforms TV-style rolling captions (which are visually difficult to follow) into more readable streaming service style subtitles.&lt;/p&gt;
+
+&lt;p&gt;I made this extension so I can learn French by watching French Canadian content, while not needing to look up words for every sentence.&lt;/p&gt;
+
+&lt;h3 id=&quot;more-details-on-the-how&quot;&gt;More Details on the How:&lt;/h3&gt;
+&lt;p&gt;I first go through the requests that are sent from websites’ front-end to their respective servers to filter for requests that contain the keyword “vtt”. Vtt files are the most common video subtitle format. 
+Depending on the website, the server could send one vtt file at the beginning of the video or many vtt files throughout the video.&lt;/p&gt;
+
+&lt;p&gt;After procuring the files, I then parse them, from rolling styles to regular streaming service styles. You can refer to the gif above for a visual idea. The subtitle files that are sent have a rolling style, with cues formatted like this below example. A cue is a single subtitle block that has a single start time, end time, and a piece of text. The cues are simplified with letters in the following example. &lt;code&gt;t&lt;/code&gt; represents timestamps, while the rest of the letters represent a few words. For example, &lt;code&gt;a&lt;/code&gt; could represent “They are taking”, and &lt;code&gt;b&lt;/code&gt; could represent “the Hobbits to Isengard.”&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cue #1: t1 -&amp;gt; t2
+&lt;br /&gt;
+    a
+&lt;br /&gt;
+    b
+&lt;br /&gt;
+cue #2: t3 -&amp;gt; t4
+&lt;br /&gt;
+    b
+&lt;br /&gt;
+    c
+&lt;br /&gt;
+cue #3: t5 -&amp;gt; t6
+&lt;br /&gt;
+    c
+&lt;br /&gt;
+    d
+&lt;br /&gt;
+    e
+&lt;br /&gt;
+cue #4: t7 -&amp;gt; t8
+&lt;br /&gt;
+    d
+&lt;br /&gt;
+    e
+&lt;br /&gt;
+    f
+&lt;br /&gt;
+cue #5: t8 -&amp;gt; t9
+&lt;br /&gt;
+    e
+&lt;br /&gt;
+    f
+&lt;br /&gt;
+    g
+&lt;br /&gt;
+cue #6: t9 -&amp;gt; t10
+&lt;br /&gt;
+    f
+&lt;br /&gt;
+    g
+&lt;br /&gt;
+    h
+&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I parse files like the above to look like below:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cue #1: t1 -&amp;gt; t4
+&lt;br /&gt;
+    a b c
+&lt;br /&gt;
+cue #2: t4 -&amp;gt; t8
+&lt;br /&gt;
+    d e f
+&lt;br /&gt;
+cue #3: t8 -&amp;gt; t10
+&lt;br /&gt;
+    g h
+&lt;br /&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once I have generated clean subtitle data, I then create invisible elements on the page, with the French subtitle sentences inside. 
+One interesting thing that I noticed is that Chrome translates as users scroll a page. Chrome doesn’t translate the whole page at a time to save computing power. So the placement of the invisible elements is important–it has to be in the video. Chrome also does not translate elements that have a css style of &lt;code&gt;display: none&lt;/code&gt;, but &lt;code&gt;opacity: 0&lt;/code&gt; does the trick.
+I opted for Google’s page translate because it’s free, unlike Google’s translate API.&lt;/p&gt;
+
+&lt;p&gt;After the translations are completed, new cues are then created with both the original and translated subtitles. They are then displayed on top of the video with the &lt;code&gt;&amp;lt;track&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;Beyond the main functionality, there are a few small standard features like: adjusting the subtitle font size as users change their browser window size, move up the subtitle box when the video control bar (progress bar) is showing, and toggling different subtitle modes: dual subtitles, or French only, or English only.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges&quot;&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;All the video websites implement video solutions different. I have to write a fair amount of custom code for each website. It is difficult to maintain the project when websites’ implementations change and it is time-consuming to add new support for new websites.&lt;/p&gt;
+
+&lt;p&gt;Chrome’s manifest V3 is not as forgiving as V2 in user permissions. My interpretation (mostly Internet’s savvy developers’ opinion) is that Google wants to deter the development of a few categories of extensions, namely adblockers (they are cutting into Google’s core revenue stream) and tampermonkeys. The impact on Traditou is that now upon installation, Chrome shows users a warning that Traditou reads their browser history, as well as reads and changes their data, which makes Traditou look like malware. I still haven’t found a way to counter that.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the project, I was using Google’s page translate to quickly translate elements that have subtitle texts in them, instead of working on batch vtt files. This resulted in subtitles that tend to flicker a lot. But parsing vtt files worked much better as I later found out.&lt;/p&gt;
+
+&lt;p&gt;I also haven’t found a way to skip the step where users have to right-click and translate the page.&lt;/p&gt;
+
+&lt;p&gt;Finally, the biggest challenge is that French Canadians speak too fast, even with this extension, I still have trouble following plots…&lt;/p&gt;
+
+&lt;h3 id=&quot;name-credit&quot;&gt;Name Credit&lt;/h3&gt;
+&lt;p&gt;Hugo (my boyfriend)’s mom came up with the name Traditou, for &lt;strong&gt;tra&lt;/strong&gt;duire &lt;strong&gt;di&lt;/strong&gt;rect &lt;strong&gt;tou&lt;/strong&gt;s, meaning translate all directly. It is also a pun: tou for tou.tv and for tous, which means all. I think it’s pretty clever.&lt;/p&gt;
 
 &lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
 &lt;ul&gt;
